@@ -30,7 +30,8 @@ input:focus{
 
 const FormInput = (props) => {
     return (
-        <FormInputStyles>
+        // spread out props so any events added are recognized
+        <FormInputStyles {...props}>
             <label htmlFor={props.id}>{props.label}</label>
             <input type={props.type} id={props.id} name={props.name} />
         </FormInputStyles>
