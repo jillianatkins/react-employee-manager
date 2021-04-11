@@ -1,5 +1,5 @@
-# React Firebase Starter Kit
-Starter kit is just an extension of the create react app project [Create React App](https://github.com/facebook/create-react-app).
+# React Employee Manager
+Employee Manager App built with React and Firebase
 
 ### Includes The Following Modules
 styled-components
@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode and displays it in the browser.
 
 
 
@@ -25,14 +25,3 @@ Runs the app in the development mode.\
 Builds the app for production to the `build` folder.\
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
  
- ## Setting Up a Firebase Project
- install Firebase CLI (command line interface):
-    npm install -g firebase-tools
-
-Basic CLI commands:
-    Sign in to Google:
-        firebase login
-    Initiate your project:
-        firebase init
-    Deploy your web app:
-        firebase deploy
