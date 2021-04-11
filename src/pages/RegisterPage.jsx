@@ -1,5 +1,5 @@
 // imr (short cut)
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components'
 import {Redirect} from 'react-router-dom';
 
