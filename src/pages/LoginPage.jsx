@@ -36,8 +36,8 @@ const LoginPage = (props) => {
     const [password, setPassword] = useState('password')
     const [isValid, setIsValid] = useState(false)
     
-    console.log('render')
-    console.log(auth)
+    //console.log('render')
+    //console.log(auth)
 
     const handleClick = (e) =>{
         firebaseApp.auth().signInWithEmailAndPassword(email, password)
